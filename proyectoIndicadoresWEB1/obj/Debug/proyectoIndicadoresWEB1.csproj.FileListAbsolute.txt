@@ -1,0 +1,285 @@
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll.config
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.pdb
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe.config
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.rsp
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe.config
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.rsp
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Console.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Http.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.ValueTuple.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe.config
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.rsp
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\WebGrease.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.pdb
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Helpers.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Mvc.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Optimization.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Razor.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyecto.0FF49979.Up2Date
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.dll
+C:\Users\carlo\source\repos\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.pdb
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll.config
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.pdb
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe.config
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.rsp
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe.config
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.rsp
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.AppContext.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Console.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Http.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.ValueTuple.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe.config
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.rsp
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\WebGrease.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.pdb
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Helpers.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Mvc.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Optimization.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Razor.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.AssemblyReference.cache
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.CoreCompileInputs.cache
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.CopyComplete
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.dll
+C:\Users\docenteitm\Downloads\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.pdb
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll.config
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\proyectoIndicadoresWEB1.pdb
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.exe.config
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csc.rsp
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.exe.config
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\csi.rsp
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.AppContext.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Collections.Immutable.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Console.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Globalization.Calendars.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Http.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Net.Sockets.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Reflection.Metadata.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.ValueTuple.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.exe.config
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\vbc.rsp
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\roslyn\VBCSCompiler.exe.config
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.Web.Infrastructure.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\WebGrease.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Newtonsoft.Json.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Net.Http.Formatting.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Helpers.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Http.WebHost.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Mvc.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Optimization.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.Razor.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Deployment.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\System.Web.WebPages.Razor.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Antlr3.Runtime.pdb
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Net.Http.Formatting.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Helpers.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Http.WebHost.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Mvc.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Optimization.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.Razor.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.AssemblyReference.cache
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.csproj.CoreCompileInputs.cache
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyecto.0FF49979.Up2Date
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.dll
+D:\2024_1\ITM_2024_1\Aplicación y Servicios WEB\proyectoIndicadoresWEB1\proyectoIndicadoresWEB1\obj\Debug\proyectoIndicadoresWEB1.pdb

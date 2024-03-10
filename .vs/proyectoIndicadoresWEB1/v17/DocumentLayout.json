@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024_1\\ITM_2024_1\\Aplicaci\u00F3n y Servicios WEB\\proyectoIndicadoresWEB1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D22F1134-A44A-463D-ADF7-6100D123BB99}|proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1.csproj|d:\\2024_1\\itm_2024_1\\aplicaci\u00F3n y servicios web\\proyectoindicadoresweb1\\proyectoindicadoresweb1\\frmusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22F1134-A44A-463D-ADF7-6100D123BB99}|proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1.csproj|solutionrelative:proyectoindicadoresweb1\\frmusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22F1134-A44A-463D-ADF7-6100D123BB99}|proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1.csproj|d:\\2024_1\\itm_2024_1\\aplicaci\u00F3n y servicios web\\proyectoindicadoresweb1\\proyectoindicadoresweb1\\frmusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D22F1134-A44A-463D-ADF7-6100D123BB99}|proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1.csproj|solutionrelative:proyectoindicadoresweb1\\frmusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmUsuario.aspx.cs",
+              "DocumentMoniker": "D:\\2024_1\\ITM_2024_1\\Aplicaci\u00F3n y Servicios WEB\\proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1\\FrmUsuario.aspx.cs",
+              "RelativeDocumentMoniker": "proyectoIndicadoresWEB1\\FrmUsuario.aspx.cs",
+              "ToolTip": "D:\\2024_1\\ITM_2024_1\\Aplicaci\u00F3n y Servicios WEB\\proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1\\FrmUsuario.aspx.cs",
+              "RelativeToolTip": "proyectoIndicadoresWEB1\\FrmUsuario.aspx.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T20:11:47.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUsuario.aspx",
+              "DocumentMoniker": "D:\\2024_1\\ITM_2024_1\\Aplicaci\u00F3n y Servicios WEB\\proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1\\FrmUsuario.aspx",
+              "RelativeDocumentMoniker": "proyectoIndicadoresWEB1\\FrmUsuario.aspx",
+              "ToolTip": "D:\\2024_1\\ITM_2024_1\\Aplicaci\u00F3n y Servicios WEB\\proyectoIndicadoresWEB1\\proyectoIndicadoresWEB1\\FrmUsuario.aspx",
+              "RelativeToolTip": "proyectoIndicadoresWEB1\\FrmUsuario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-09T18:50:32.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
