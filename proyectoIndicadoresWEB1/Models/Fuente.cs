@@ -5,7 +5,7 @@ using System.Web;
 
 namespace proyectoIndicadoresWEB1.Models
 {
-    public class Rol
+    public class Fuente
     {
         private int id;
         private string nombre;
@@ -13,13 +13,13 @@ namespace proyectoIndicadoresWEB1.Models
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
 
-        public Rol(int id, string nombre)
+        public Fuente(int id, string nombre)
         {
             this.Id = id;
             this.Nombre = nombre;
         }
 
-        public Rol()
+        public Fuente()
         {
             this.Id = 0;
             this.Nombre = "";
