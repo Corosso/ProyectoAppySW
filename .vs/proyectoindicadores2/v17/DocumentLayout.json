@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|c:\\users\\fredo\\onedrive\\escritorio\\proyectoindicadores2\\frmrepresenvisual.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmrepresenvisual.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|c:\\users\\fredo\\onedrive\\escritorio\\proyectoindicadores2\\frmunidadmedicion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmunidadmedicion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\controllers\\controlunidadmedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:controllers\\controlunidadmedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmunidadmedicion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmunidadmedicion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\controllers\\controltipoindicador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:controllers\\controltipoindicador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\controllers\\controlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:controllers\\controlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmtipoindicador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmtipoindicador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmtipoindicador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmtipoindicador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmtipoactor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmtipoactor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\controllers\\controltipoactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:controllers\\controltipoactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmtipoactor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmtipoactor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmsentido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmsentido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\models\\tipoactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:models\\tipoactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmsentido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmsentido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\models\\sentido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:models\\sentido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\frmfuente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:frmfuente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\controllers\\controlsentido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44EF6B-D62D-410D-95AA-6DCBE2C525E6}|proyectoindicadores2.csproj|solutionrelative:controllers\\controlsentido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRepresenVisual.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmRepresenVisual.aspx",
+              "RelativeDocumentMoniker": "FrmRepresenVisual.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmRepresenVisual.aspx",
+              "RelativeToolTip": "FrmRepresenVisual.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T22:56:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ControlConexion.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlConexion.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControlConexion.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlConexion.cs",
+              "RelativeToolTip": "Controllers\\ControlConexion.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T22:00:16.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControlTipoIndicador.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlTipoIndicador.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControlTipoIndicador.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlTipoIndicador.cs",
+              "RelativeToolTip": "Controllers\\ControlTipoIndicador.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:59:15.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControlUnidadMedicion.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlUnidadMedicion.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControlUnidadMedicion.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlUnidadMedicion.cs",
+              "RelativeToolTip": "Controllers\\ControlUnidadMedicion.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAcwIcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:58:39.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmUnidadMedicion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmUnidadMedicion.aspx.cs",
+              "RelativeDocumentMoniker": "FrmUnidadMedicion.aspx.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmUnidadMedicion.aspx.cs",
+              "RelativeToolTip": "FrmUnidadMedicion.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:57:58.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUnidadMedicion.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmUnidadMedicion.aspx",
+              "RelativeDocumentMoniker": "FrmUnidadMedicion.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmUnidadMedicion.aspx",
+              "RelativeToolTip": "FrmUnidadMedicion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T21:57:37.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmTipoIndicador.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoIndicador.aspx.cs",
+              "RelativeDocumentMoniker": "FrmTipoIndicador.aspx.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoIndicador.aspx.cs",
+              "RelativeToolTip": "FrmTipoIndicador.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:56:41.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmTipoIndicador.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoIndicador.aspx",
+              "RelativeDocumentMoniker": "FrmTipoIndicador.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoIndicador.aspx",
+              "RelativeToolTip": "FrmTipoIndicador.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T21:55:54.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControlTipoActor.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlTipoActor.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControlTipoActor.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlTipoActor.cs",
+              "RelativeToolTip": "Controllers\\ControlTipoActor.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:54:39.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmTipoActor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoActor.aspx.cs",
+              "RelativeDocumentMoniker": "FrmTipoActor.aspx.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoActor.aspx.cs",
+              "RelativeToolTip": "FrmTipoActor.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:50:48.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TipoActor.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Models\\TipoActor.cs",
+              "RelativeDocumentMoniker": "Models\\TipoActor.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Models\\TipoActor.cs",
+              "RelativeToolTip": "Models\\TipoActor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:50:35.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmTipoActor.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoActor.aspx",
+              "RelativeDocumentMoniker": "FrmTipoActor.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmTipoActor.aspx",
+              "RelativeToolTip": "FrmTipoActor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T21:50:16.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmFuente.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmFuente.aspx",
+              "RelativeDocumentMoniker": "FrmFuente.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmFuente.aspx",
+              "RelativeToolTip": "FrmFuente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T21:44:51.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ControlSentido.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlSentido.cs",
+              "RelativeDocumentMoniker": "Controllers\\ControlSentido.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Controllers\\ControlSentido.cs",
+              "RelativeToolTip": "Controllers\\ControlSentido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:43:15.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sentido.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Models\\Sentido.cs",
+              "RelativeDocumentMoniker": "Models\\Sentido.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\Models\\Sentido.cs",
+              "RelativeToolTip": "Models\\Sentido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:42:55.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmSentido.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmSentido.aspx.cs",
+              "RelativeDocumentMoniker": "FrmSentido.aspx.cs",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmSentido.aspx.cs",
+              "RelativeToolTip": "FrmSentido.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwDcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T21:37:40.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmSentido.aspx",
+              "DocumentMoniker": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmSentido.aspx",
+              "RelativeDocumentMoniker": "FrmSentido.aspx",
+              "ToolTip": "C:\\Users\\fredo\\OneDrive\\Escritorio\\proyectoindicadores2\\FrmSentido.aspx",
+              "RelativeToolTip": "FrmSentido.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-11T21:36:45.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
