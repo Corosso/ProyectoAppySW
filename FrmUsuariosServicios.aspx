@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FrmUsuarios.aspx.cs" Inherits="proyectoindicadores2.FrmUsuarios" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FrmUsuariosServicios.aspx.cs" Inherits="proyectoindicadores2.FrmUsuariosServicios" Async="true" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
@@ -107,10 +109,10 @@
 											<asp:TextBox ID="txtContrasena" runat="server" class="form-control"></asp:TextBox>
 										</div>
 										<div class="form-group">
-											<asp:Button ID="btnGuardar" runat="server" Text="Guardar" class="btn btn-success" OnCommand="BtnGuardar" />
-											<asp:Button ID="btnConsultar" runat="server" Text="Consultar" class="btn btn-success" OnCommand="BtnConsultar" />
-											<asp:Button ID="btnModificar" runat="server" Text="Modificar" class="btn btn-warning" OnCommand="BtnModificar" />
-											<asp:Button ID="btnBorrar" runat="server" Text="Borrar" class="btn btn-warning" OnCommand="BtnBorrar" />
+											<asp:Button ID="btnGuardar" runat="server" Text="Guardar" class="btn btn-success" OnCommand="BtnGuardar_Click" />
+											<asp:Button ID="btnConsultar" runat="server" Text="Consultar" class="btn btn-success" OnCommand="BtnConsultar_Click" />
+											<asp:Button ID="btnModificar" runat="server" Text="Modificar" class="btn btn-warning" OnCommand="BtnModificar_Click" />
+											<asp:Button ID="btnBorrar" runat="server" Text="Borrar" class="btn btn-warning" OnCommand="BtnBorrar_Click" />
 										</div>
 									</div>
 									<div id="idrolesporusuario" class="container tab-pane fade"><br>

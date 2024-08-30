@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>proyectoindicadores2</RootNamespace>
     <AssemblyName>proyectoindicadores2</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,14 +49,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
@@ -109,6 +109,7 @@
       <Private>True</Private>
       <HintPath>packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -156,26 +157,31 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\ControlFuente.cs" />
-    <Compile Include="Controllers\ControlConexion.cs" />
-    <Compile Include="Controllers\ControlFuentesPorIndicador.cs" />
-    <Compile Include="Controllers\ControlRepresenVisual.cs" />
-    <Compile Include="Controllers\ControlRol.cs" />
-    <Compile Include="Controllers\ControlRolUsuario.cs" />
-    <Compile Include="Controllers\ControlSentido.cs" />
-    <Compile Include="Controllers\ControlTipoActor.cs" />
-    <Compile Include="Controllers\ControlTipoIndicador.cs" />
-    <Compile Include="Controllers\ControlUnidadMedicion.cs" />
-    <Compile Include="Controllers\ControlUsuario.cs" />
+    <Compile Include="Controllers\ControlConexion1.cs" />
+    <Compile Include="Controllers\ControlEntidad.cs" />
+    <Compile Include="Controllers\EntidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ControlRepresenVisualPorIndicador.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="FrmRepresenVisual.aspx.cs">
-      <DependentUpon>FrmRepresenVisual.aspx</DependentUpon>
+    <Compile Include="FrmCerrarSesion.aspx.cs">
+      <DependentUpon>FrmCerrarSesion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmRepresenVisual.aspx.designer.cs">
-      <DependentUpon>FrmRepresenVisual.aspx</DependentUpon>
+    <Compile Include="FrmCerrarSesion.aspx.designer.cs">
+      <DependentUpon>FrmCerrarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFuenteServicios.aspx.cs">
+      <DependentUpon>FrmFuenteServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFuenteServicios.aspx.designer.cs">
+      <DependentUpon>FrmFuenteServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.designer.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmMenu.aspx.cs">
       <DependentUpon>FrmMenu.aspx</DependentUpon>
@@ -184,6 +190,13 @@
     <Compile Include="FrmMenu.aspx.designer.cs">
       <DependentUpon>FrmMenu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmRolServicios.aspx.cs">
+      <DependentUpon>FrmRolServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRolServicios.aspx.designer.cs">
+      <DependentUpon>FrmRolServicios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmRol.aspx.cs">
       <DependentUpon>FrmRol.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -191,26 +204,12 @@
     <Compile Include="FrmRol.aspx.designer.cs">
       <DependentUpon>FrmRol.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FrmSentido.aspx.cs">
-      <DependentUpon>FrmSentido.aspx</DependentUpon>
+    <Compile Include="FrmUsuariosServicios.aspx.cs">
+      <DependentUpon>FrmUsuariosServicios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmSentido.aspx.designer.cs">
-      <DependentUpon>FrmSentido.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmTipoIndicador.aspx.cs">
-      <DependentUpon>FrmTipoIndicador.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmTipoIndicador.aspx.designer.cs">
-      <DependentUpon>FrmTipoIndicador.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmUnidadMedicion.aspx.cs">
-      <DependentUpon>FrmUnidadMedicion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmUnidadMedicion.aspx.designer.cs">
-      <DependentUpon>FrmUnidadMedicion.aspx</DependentUpon>
+    <Compile Include="FrmUsuariosServicios.aspx.designer.cs">
+      <DependentUpon>FrmUsuariosServicios.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmUsuarios.aspx.cs">
       <DependentUpon>FrmUsuarios.aspx</DependentUpon>
@@ -222,17 +221,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Entidad.cs" />
     <Compile Include="Models\Fuente.cs" />
-    <Compile Include="Models\FuentesPorIndicador.cs" />
-    <Compile Include="Models\RepresenVisual.cs" />
-    <Compile Include="Models\RepresenVisualPorIndicador.cs" />
-    <Compile Include="Models\Rol.cs" />
-    <Compile Include="Models\RolUsuario.cs" />
-    <Compile Include="Models\Sentido.cs" />
-    <Compile Include="Models\TipoActor.cs" />
-    <Compile Include="Models\TipoIndicador.cs" />
-    <Compile Include="Models\UnidadMedicion.cs" />
-    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -240,20 +230,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="FrmFuente.aspx.cs">
-      <DependentUpon>FrmFuente.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmFuente.aspx.designer.cs">
-      <DependentUpon>FrmFuente.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmTipoActor.aspx.cs">
-      <DependentUpon>FrmTipoActor.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmTipoActor.aspx.designer.cs">
-      <DependentUpon>FrmTipoActor.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -266,17 +242,19 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="FrmRepresenVisual.aspx" />
     <Content Include="css\base.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FrmCerrarSesion.aspx" />
+    <Content Include="FrmFuenteServicios.aspx" />
+    <Content Include="FrmLogin.aspx" />
     <Content Include="FrmMenu.aspx" />
+    <Content Include="FrmRolServicios.aspx" />
     <Content Include="FrmRol.aspx" />
-    <Content Include="FrmSentido.aspx" />
-    <Content Include="FrmTipoIndicador.aspx" />
-    <Content Include="FrmUnidadMedicion.aspx" />
+    <Content Include="FrmUsuariosServicios.aspx" />
     <Content Include="FrmUsuarios.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\medellin.jpg" />
     <Content Include="js\base.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -299,14 +277,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="FrmFuente.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="FrmTipoActor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
