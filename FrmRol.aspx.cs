@@ -11,51 +11,81 @@ namespace proyectoindicadores2
 {
     public partial class FrmRol : System.Web.UI.Page
     {
-        protected Rol[] arregloRoles = null;
+        protected List<Entidad> arregloEntidades;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            ControlRol objControlRol = new ControlRol(null);
-            arregloRoles = objControlRol.listar();
-
+          
+            ControlEntidad objControlEntidad = new ControlEntidad("rol");
+            arregloEntidades = objControlEntidad.Listar();
+            if (!IsPostBack)
+            {
+                objControlEntidad.controlDeAcceso("email", "arregloRolesUsuario", "FrmLogin.aspx");
+            }
         }
 
-        protected void BtnGuardar(object sender, CommandEventArgs e)
-        {
-            //este guardar debería llamar a un procedimiento almacenado con control de transacciones
-            //int cuenta = listRolesRol.Items.Count;
-            string nom = txtNombre.Text;
-            Rol objRol = new Rol(0, nom);
-            ControlRol objControlRol = new ControlRol(objRol);
-            string msg = objControlRol.guardar();
 
-            Response.Redirect("FrmRol.aspx");
-        }
-        protected void BtnConsultar(object sender, CommandEventArgs e)
+        protected void BtnGuardar(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(txtId.Text);
-            string nom = txtNombre.Text;
-            Rol objRol = new Rol(id, nom);
-            ControlRol objControlRol = new ControlRol(objRol);
-            objRol = objControlRol.consultar();
-            txtNombre.Text = objRol.Nombre;
-        }
-
-        protected void BtnModificar(object sender, CommandEventArgs e)
-        {
-            int id = Convert.ToInt32(txtId.Text);
-            string nom = txtNombre.Text;
-            Rol objRol = new Rol(id, nom);
-            ControlRol objControlRol = new ControlRol(objRol);
-            objControlRol.modificar();
+            string nom = txtNombre.Text.Trim();
+            Dictionary<string, object> propiedades = new Dictionary<string, object> { { "nombre", nom } };
+            Entidad entidad = new Entidad(propiedades);
+            ControlEntidad controlEntidad = new ControlEntidad("rol");
+            string resultado = controlEntidad.Guardar(entidad);
+            lblMensaje.Text = resultado;  // Mostrar mensaje de éxito o error
             Response.Redirect("FrmRol.aspx");
         }
 
-        protected void BtnBorrar(object sender, CommandEventArgs e)
+
+        protected void BtnConsultar(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(txtId.Text);
-            Rol objRol = new Rol(id, "");
-            ControlRol objControlRol = new ControlRol(objRol);
-            objControlRol.borrar();
+            // Asegúrate de que el ID exista y sea numérico
+            if (!int.TryParse(txtId.Text, out int id))
+            {
+                lblMensaje.Text = "ID no válido.";
+                return;
+            }
+
+            ControlEntidad controlEntidad = new ControlEntidad("rol");
+            Entidad entidad = controlEntidad.Consultar("id", id);
+            if (entidad != null)
+            {
+                txtNombre.Text = entidad["nombre"].ToString();
+            }
+            else
+            {
+                lblMensaje.Text = "Rol no encontrado.";
+            }
+        }
+
+        protected void BtnModificar(object sender, EventArgs e)
+        {
+            if (!int.TryParse(txtId.Text, out int id))
+            {
+                lblMensaje.Text = "ID no válido.";
+                return;
+            }
+
+            string nom = txtNombre.Text.Trim();
+            Dictionary<string, object> propiedades = new Dictionary<string, object> { { "nombre", nom } };
+            Entidad entidad = new Entidad(propiedades);
+            ControlEntidad controlEntidad = new ControlEntidad("rol");
+            string resultado = controlEntidad.Modificar(entidad, "id", id);
+            lblMensaje.Text = resultado;  // Mostrar mensaje de éxito o error
+            Response.Redirect("FrmRol.aspx");
+        }
+
+        protected void BtnBorrar(object sender, EventArgs e)
+        {
+            if (!int.TryParse(txtId.Text, out int id))
+            {
+                lblMensaje.Text = "ID no válido.";
+                return;
+            }
+
+            ControlEntidad controlEntidad = new ControlEntidad("rol");
+            string resultado = controlEntidad.Borrar("id", id);
+            lblMensaje.Text = resultado;  // Mostrar mensaje de éxito o error
             Response.Redirect("FrmRol.aspx");
         }
     }

@@ -1,9 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FrmRol.aspx.cs" Inherits="proyectoindicadores2.FrmRol" %>
+<%@ Import Namespace="proyectoindicadores2.Models" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
 		<div>
+			<asp:Label ID="lblMensaje" runat="server" Text="Label"></asp:Label>
 			<div class="container-xl">
 			<div class="table-responsive">
 				<div class="table-wrapper">
@@ -33,26 +35,32 @@
 						</thead>
 						<tbody>
 							<%
-                                for (int i = 0; i < arregloRoles.Length; i++)
-                                {
+							var arregloRoles = Session["arregloRoles"] as List<Entidad>;
+							if (arregloEntidades != null)
+							{
+								foreach (var rol in arregloEntidades)
+								{
 							%>
-							<tr>
-								<td>
-									<span class="custom-checkbox">
-										<input type="checkbox" id="checkbox1" name="options[]" value="1">
-										<label for="checkbox1"></label>
-									</span>
-								</td>
-								<td><% Response.Write(arregloRoles[i].Id); %></td>
-								<td><% Response.Write(arregloRoles[i].Nombre); %></td>
-								<td>
-									<a href="#" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-								</td>
-							</tr>
-							<%
-								} 
-							%>
-						</tbody>
+									<tr>
+										<td>
+											<span class="custom-checkbox">
+												<input type="checkbox" id="checkbox<%= rol["id"] %>" name="options[]" value="<%= rol["id"] %>">
+												<label for="checkbox<%= rol["id"] %>"></label>
+											</span>
+										</td>
+										<td><%= rol["id"] %></td>
+										<td><%= rol["nombre"] %></td>
+										<td>
+											<a href="#crudModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+											<a href="#crudModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+										</td>
+									</tr>
+									<%
+								}
+							}
+						%>
+					</tbody>
+
 					</table>
 					<div class="clearfix">
 						<div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>

@@ -31,7 +31,7 @@
               <!-- Links -->
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link 1</a>
+                  <a class="nav-link" href="FrmMenu.aspx">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link 2</a>
@@ -43,8 +43,10 @@
                     Gestión de Usuarios
                   </a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="FrmUsuarios.aspx">Usuarios</a>
-                    <a class="dropdown-item" href="FrmRol.aspx">Roles</a>
+                   <!-- <a class="dropdown-item" href="FrmUsuarios.aspx">Usuarios</a> -->
+                     <a class="dropdown-item" href="FrmUsuariosServicios.aspx">Usuarios</a> 
+                     <a class="dropdown-item" href="FrmRolServicios.aspx">Roles</a> 
+                   <!-- <a class="dropdown-item" href="FrmRol.aspx">Roles</a> -->
                   </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -54,7 +56,7 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Indicadores</a>
                     <a class="dropdown-item" href="#">Tipo Indicador</a>
-                    <a class="dropdown-item" href="#">Fuente</a>
+                    <a class="dropdown-item" href="FrmFuenteServicios.aspx">Fuente</a>
                      <a class="dropdown-item" href="#">Representación Visual</a>
                     <a class="dropdown-item" href="#">Unidad de Medición</a>
                     <a class="dropdown-item" href="#">Sentido</a>
@@ -64,6 +66,12 @@
                     <a class="dropdown-item" href="#">Actor</a>
                     <a class="dropdown-item" href="#">Tipo Actor</a>
                   </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="FrmLogin.aspx">Inicio de sesión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="FrmCerrarSesion.aspx">Cerrar sesión</a>
                 </li>
               </ul>
             </nav>

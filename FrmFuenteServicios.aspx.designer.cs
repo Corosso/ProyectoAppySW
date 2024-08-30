@@ -11,7 +11,7 @@ namespace proyectoindicadores2
 {
 
 
-    public partial class FrmUsuarios
+    public partial class FrmFuenteServicios
     {
 
         /// <summary>

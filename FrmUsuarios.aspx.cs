@@ -11,98 +11,188 @@ namespace proyectoindicadores2
 {
     public partial class FrmUsuarios : System.Web.UI.Page
     {
-        protected Usuario[] arregloUsuarios = null;
-        protected Rol[] arregloRoles = null;
+        protected List<Entidad> arregloEntidades;
+        protected List<Entidad> arregloRoles;
         protected void Page_Load(object sender, EventArgs e)
         {
-            ControlUsuario objControlUsuario = new ControlUsuario(null);
-            arregloUsuarios = objControlUsuario.listar();
-            if (!IsPostBack) //Si es la primera vez que carga la página
+            ControlEntidad controlUsuario = new ControlEntidad("usuario");
+            arregloEntidades = controlUsuario.Listar();
+            if (!IsPostBack)
             {
-                ControlRol objControlRol = new ControlRol(null);
-                arregloRoles = objControlRol.listar();
-                for (int i = 0; i < arregloRoles.Length; i++)
+
+                controlDeAcceso("email", "arregloRolesUsuario", "FrmLogin.aspx");
+
+                ControlEntidad controlRol = new ControlEntidad("rol");
+                arregloRoles = controlRol.Listar();
+
+                comboRoles.Items.Clear();
+                foreach (var rol in arregloRoles)
                 {
-                    comboRoles.Items.Add(arregloRoles[i].Id.ToString() + ";" + arregloRoles[i].Nombre);
+                    string text = $"{rol["id"]} - {rol["nombre"]}";
+                    string value = rol["id"].ToString();
+                    comboRoles.Items.Add(new ListItem(text, value));
                 }
-            } 
-
-        }
-
-        protected void BtnGuardar(object sender, CommandEventArgs e)
-        {
-            //este guardar debería llamar a un procedimiento almacenado con control de transacciones
-            //int cuenta = listRolesUsuario.Items.Count;
-            string ema = txtEmail.Text;
-            string con = txtContrasena.Text;
-            Usuario objUsuario = new Usuario(ema, con);
-            ControlUsuario objControlUsuario = new ControlUsuario(objUsuario);
-            string msg = objControlUsuario.guardar();
-
-            for (int i = 0; i < listRolesUsuario.Items.Count; i++)
-            {
-                string[] idYNombre = listRolesUsuario.Items[i].Value.Split(';');
-                int id = Convert.ToInt32(idYNombre[0]);
-                RolUsuario objRolUsuario = new RolUsuario(ema, id);
-                ControlRolUsuario objControlRolUsuario = new ControlRolUsuario(objRolUsuario);
-                objControlRolUsuario.guardar();
-            }
-            Response.Redirect("FrmUsuarios.aspx");
-        }
-        protected void BtnConsultar(object sender, CommandEventArgs e)
-        {
-            string ema = txtEmail.Text;
-            Usuario objUsuario = new Usuario(ema, "");
-            ControlUsuario objControlUsuario = new ControlUsuario(objUsuario);
-            objUsuario = objControlUsuario.consultar();
-            txtContrasena.Text = objUsuario.Contrasena;
-            ControlRolUsuario objControlRolUsuario = new ControlRolUsuario(null);
-            RolUsuario[] arregloRolUsuario= objControlRolUsuario.listar(ema);
-            listRolesUsuario.Items.Clear();
-            //debería tener un control de excepciones
-            for (int i = 0;i< arregloRolUsuario.Length; i++)
-            {
-                listRolesUsuario.Items.Add(arregloRolUsuario[i].FkIdRol.ToString());
             }
         }
-
-        protected void BtnModificar(object sender, CommandEventArgs e)
+        public string controlDeAcceso(string claveDeSession, string claveArregloRolesUsuario, string paginaRetorno)
         {
-            string ema = txtEmail.Text;
-            string con = txtContrasena.Text;
-            Usuario objUsuario = new Usuario(ema, con);
-            ControlUsuario objControlUsuario = new ControlUsuario(objUsuario);
-            string msg = objControlUsuario.borrar();
-            objControlUsuario.guardar();
-            for (int i = 0; i < listRolesUsuario.Items.Count; i++)
+            string mensaje = "ok";
+            if (HttpContext.Current.Session[claveDeSession] != null)
             {
-                string[] idYNombre = listRolesUsuario.Items[i].Value.Split(';');
-                int id = Convert.ToInt32(idYNombre[0]);
-                RolUsuario objRolUsuario = new RolUsuario(ema, id);
-                ControlRolUsuario objControlRolUsuario = new ControlRolUsuario(objRolUsuario);
-                objControlRolUsuario.guardar();
+                try
+                {
+                    List<Entidad> rolesUsuario = (List<Entidad>)HttpContext.Current.Session[claveArregloRolesUsuario];
+                    bool permiso = rolesUsuario.Any(entidad => Convert.ToInt32(entidad["id"]) == 1);
+
+                    if (!permiso)
+                    {
+                        HttpContext.Current.Response.Redirect("FrmMenu.aspx", true);
+                        mensaje = "Acceso denegado.";
+                    }
+                }
+                catch (Exception e)
+                {
+                    HttpContext.Current.Response.Redirect("FrmLogin.aspx", true);
+                    mensaje = "Error de configuración de roles: " + e.Message;
+                }
             }
-            Response.Redirect("FrmUsuarios.aspx");
+            else
+            {
+                HttpContext.Current.Response.Redirect(paginaRetorno, true);
+                mensaje = "Usuario no autenticado.";
+            }
+
+            return mensaje;
         }
 
-        protected void BtnBorrar(object sender, CommandEventArgs e)
+        protected void BtnGuardar(object sender, EventArgs e)
         {
-            string ema = txtEmail.Text;
-            Usuario objUsuario = new Usuario(ema, "");
-            ControlUsuario objControlUsuario = new ControlUsuario(objUsuario);
-            string msg = objControlUsuario.borrar();
+            string email = txtEmail.Text.Trim();
+            string contrasena = txtContrasena.Text.Trim();
+            Dictionary<string, object> propiedadesUsuario = new Dictionary<string, object>
+            {
+                {"email", email},
+                {"contrasena", contrasena}  //  'contrasena' debe ser con hash
+            };
+
+            Entidad usuario = new Entidad(propiedadesUsuario);
+            ControlEntidad controlUsuario = new ControlEntidad("usuario");
+            string resultadoUsuario = controlUsuario.Guardar(usuario);
+
+            // Asumiendo que listRolesUsuario es un ListBox que tiene los roles seleccionados
+            foreach (ListItem item in listRolesUsuario.Items)
+            {
+                //if (item.Selected)
+                //{
+                    Dictionary<string, object> propiedadesRolUsuario = new Dictionary<string, object>
+                    {
+                        {"fkemail", email}, 
+                        {"fkidrol", item.Value.Split(' ')[0]}  
+                    };
+
+                    Entidad rolUsuario = new Entidad(propiedadesRolUsuario);
+                    ControlEntidad controlRolUsuario = new ControlEntidad("rol_usuario"); 
+                    string resultadoRolUsuario = controlRolUsuario.Guardar(rolUsuario);
+
+                    // aquí manejar mensajes
+                //}
+            }
+
+            // Opcional: mostrar un mensaje de resultado
+            // lblMensaje.Text = "Usuario y roles guardados correctamente";
+
             Response.Redirect("FrmUsuarios.aspx");
         }
 
+
+        protected void BtnConsultar(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            ControlEntidad controlUsuario = new ControlEntidad("usuario");
+            Entidad entidad = controlUsuario.Consultar("email", email);
+            if (entidad != null)
+            {
+                txtEmail.Text = entidad["email"].ToString();
+                txtContrasena.Text = entidad["contrasena"].ToString();
+
+                // Consulta los roles asociados al usuario y los muestra en el ListBox
+                ControlEntidad controlRolUsuario = new ControlEntidad("rol_usuario");
+                List<Entidad> rolesUsuario = controlRolUsuario.ConsultarRolesPorUsuario(email);
+                listRolesUsuario.Items.Clear(); // Limpia el ListBox antes de agregar nuevos ítems
+                foreach (Entidad rol in rolesUsuario)
+                {
+                    ListItem listItem = new ListItem(rol["id"].ToString()+" - "+ rol["nombre"].ToString());
+                    listRolesUsuario.Items.Add(listItem);
+                }
+            }
+            else
+            {
+                // Opcional: Mostrar un mensaje de error si el usuario no se encuentra
+                // lblMensaje.Text = "Usuario no encontrado.";
+            }
+        }
+
+
+        protected void BtnModificar(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            Dictionary<string, object> propiedades = new Dictionary<string, object>
+            {
+                {"email", email},
+                {"contrasena", txtContrasena.Text.Trim()}
+            };
+
+            Entidad entidad = new Entidad(propiedades);
+            ControlEntidad controlUsuario = new ControlEntidad("usuario");
+            string mensaje1 = controlUsuario.Modificar(entidad, "email", email);
+
+            ControlEntidad controlRolUsuario = new ControlEntidad("rol_usuario");
+            string mensaje2 = controlRolUsuario.Borrar("email", email);
+            foreach (ListItem item in listRolesUsuario.Items)
+            {
+                Dictionary<string, object> propiedadesRolUsuario = new Dictionary<string, object>
+                    {
+                        {"fkemail", email},
+                        {"fkidrol", item.Value.Split(' ')[0]}
+                    };
+
+                Entidad rolUsuario = new Entidad(propiedadesRolUsuario);
+                string resultadoRolUsuario = controlRolUsuario.Guardar(rolUsuario);
+            }
+            //lblMensaje.Text = resultado;
+            Response.Redirect("FrmUsuarios.aspx");
+        }
+
+        protected void BtnBorrar(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text.Trim();
+            ControlEntidad controlUsuario = new ControlEntidad("usuario");
+            string resultado = controlUsuario.Borrar("email", email);
+            //lblMensaje.Text = resultado;
+            Response.Redirect("FrmUsuarios.aspx");
+        }
         protected void btnAgregarRol(object sender, EventArgs e)
         {
-            listRolesUsuario.Items.Add(comboRoles.Text);
-            comboRoles.Items.Remove(comboRoles.Text);
+            //if (comboRoles.SelectedItem != null)
+            //{
+                ListItem newItem = new ListItem(comboRoles.SelectedItem.Text, comboRoles.SelectedItem.Value);
+                //newItem.Selected = true;
+
+                listRolesUsuario.Items.Add(newItem);  // Agrega al ListBox
+                //comboRoles.Items.Remove(newItem);  // Remueve del DropDownList
+            //}
         }
 
         protected void btnRemoverRol(object sender, EventArgs e)
         {
-            listRolesUsuario.Items.Remove(listRolesUsuario.Text);
+            if (listRolesUsuario.SelectedItem != null)
+            {
+                // Devuelve el ítem al DropDownList
+                comboRoles.Items.Add(new ListItem(listRolesUsuario.SelectedItem.Text, listRolesUsuario.SelectedItem.Value));
+
+                // Remueve el ítem seleccionado del ListBox
+                listRolesUsuario.Items.Remove(listRolesUsuario.SelectedItem);
+            }
         }
 
     }
